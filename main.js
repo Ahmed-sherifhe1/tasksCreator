@@ -4,7 +4,7 @@ if(localStorage.tasks!=null){
     myArr = JSON.parse(localStorage.tasks)
 }
 else{
-    let myArr = []
+    var myArr = []
 }
 let mydiv = document.querySelector(".tasks");
 //addTasks
