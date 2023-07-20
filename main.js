@@ -1,6 +1,7 @@
 let myInput = document.querySelector ( ".input" ) ;
 let addBtn  = document.querySelector ( ".add"   ) ;
 if(localStorage.tasks!=null){
+    var myArr = []
     myArr = JSON.parse(localStorage.tasks)
 }
 else{
